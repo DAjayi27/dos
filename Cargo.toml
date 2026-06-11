@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bootloader = "0.9"
 spin = "0.5.2"
 volatile = "0.6.1"
 uart_16550 = "0.2.0"
+aarch64-cpu = "9.3.0"
 [[bin]]
 name = "DOS"
 test = false
